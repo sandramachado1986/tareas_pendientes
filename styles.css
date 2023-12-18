@@ -1,0 +1,136 @@
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}*/
+
+.container {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: flex-end; /* Alinea el contenido hacia la derecha */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.timer-container {
+    text-align: center;
+    border-radius: 50%; /* Agrega borde circular */
+    background-color: #3498db; /* Cambia el color de fondo a tu preferencia */
+    padding: 20px;
+}
+.container {
+    width: 30%; /* Ajusta el ancho del contenedor según tus necesidades */
+    margin-right: 10%; /* Agrega margen a la derecha del contenedor principal */
+}
+#timer {
+    font-size: 3em;
+    margin: 10px;
+    color: #fff; /* Cambia el color del texto a tu preferencia */
+}
+
+button {
+    font-size: 1em;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #2ecc71; /* Cambia el color del botón a tu preferencia */
+    color: #fff; /* Cambia el color del texto del botón a tu preferencia */
+    border: none;
+    border-radius: 5px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 20px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .column {
+    float: left;
+    width: 100%;
+  }
+
+  @media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .column {
+      width: 33.3333%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .column {
+      width: 25%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .column {
+      width: 20%;
+    }
+  }
+
+  .content {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
